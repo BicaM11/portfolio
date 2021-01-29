@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <title>Biljana | Developer</title>
+
+    <meta name="description" content="[Biljana] | Developer" />
+
+    <!-- Required libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Biljana.</span>
+          <br />
+          I'm the Unknown Developer.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#contact">Hire Me.</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile1.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                In pursuit of a stimulating environment where my skills could lead to 
+                my professional improvement as well as my team’s success. 
+                A strong desire to learn and determination to adopt new competences and tools 
+                are for sure a counterweight to the fact that after a decade of non IT work 
+                I decided to come back where it all started - web developing.
+              </p>
+              <p class="about-wrapper__info-text">
+                In order to get a first touch with new technologies I finished 
+                the Frontend development program at the Algebra Community College, 
+                and the Udemy course "The complete Web Development in 2021". 
+                I’ve used HTML, CSS, JavaScript, Git and GitHub, React, and basics 
+                in Express and Nodejs. You can check out some of my projects below.
+              </p>
+              <span class="d-flex mt-3">
+                <!-- <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
+                  View Resume
+                </a> -->
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Face Recognition App
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    Made in React, it detects the face in a provided image using the Clarifai API.
+                    Besides the Frontend side, it was made with a functional server and a
+                    users register and login database. In the process both Express and NodeJS were 
+                    used and the app is uploaded via the Heroku platform.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://smart-brain1103.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/BicaM11/smart-brain"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://smart-brain1103.herokuapp.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img
+                      id="projectImage"
+                      class="img-fluid"
+                      src="./assets/image1.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Chat App - JavaScript
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    The final project at the Algebra Community College Frontend Development 
+                    program. It is made with HTML, CSS and JavaScript, using
+                    the Scaledrone API.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://bicam11.github.io/chat-app/"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/BicaM11/chat-app"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://bicam11.github.io/chat-app/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/image2.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Robofriends App</h3>
+                <div>
+                  <p class="mb-4">
+                    Made in React, it is a Card UI with different user info in a card form. 
+                    It features the dynamic search trough the cards with the full 
+                    username or just a part of it.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://bicam11.github.io/Robofriends/"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/BicaM11/Robofriends"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://bicam11.github.io/Robofriends/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/image3.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">biljana.hrvacanin@gmail.com</p>
+          <p class="contact-wrapper__text">+385 99 506 9186</p>
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:biljana.hrvacanin@gmail.com"
+            >Contact me.</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <!-- <a href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a href="#!" target="_blank">
+            <i class="fa fa-codepen fa-inverse"></i>
+          </a>
+          <a href="#!" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a> -->
+          <a href="https://github.com/BicaM11?tab=repositories" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+        <div class="social-links">
+          <p class="footer__text">GitHub profile - BicaM11</p>
+        </div>
+
+        <hr />
+
+        <p class="footer__text">© 2021 - Special thanks to Jacobo Martínez</p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
